@@ -48,7 +48,6 @@ joblib
 scikit-learn
 scipy
 tqdm
-pycairo
 grpcio
 matplotlib
 pandas
