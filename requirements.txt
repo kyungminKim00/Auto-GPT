@@ -51,7 +51,6 @@ pytest-benchmark
 pytest-cov
 pytest-integration
 pytest-mock
-<<<<<<< HEAD
 
 # Custom
 joblib
@@ -81,7 +80,3 @@ captum
 xgboost
 catboost
 umap-learn
-=======
-vcrpy
-pytest-recording
->>>>>>> upstream/stable
