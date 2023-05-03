@@ -13,8 +13,7 @@ services:
       MEMORY_BACKEND: ${MEMORY_BACKEND:-redis}
       REDIS_HOST: ${REDIS_HOST:-redis}
     volumes:
-      - "./autogpt:/app"
-      - ".env:/app/.env"
+      - ./:/app
     profiles: ["exclude-from-up"]
 
   redis:
