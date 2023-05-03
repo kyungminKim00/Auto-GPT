@@ -37,21 +37,6 @@ auto-gpt-plugin-template
 mkdocs
 pymdown-extensions
 
-
-# OpenAI and Generic plugins import
-openapi-python-client==0.13.4
-
-# Items below this point will not be included in the Docker Image
-
-# Testing dependencies
-pytest
-asynctest
-pytest-asyncio
-pytest-benchmark
-pytest-cov
-pytest-integration
-pytest-mock
-
 # Custom
 joblib
 scikit-learn
@@ -80,3 +65,18 @@ captum
 xgboost
 catboost
 umap-learn
+
+
+# OpenAI and Generic plugins import
+openapi-python-client==0.13.4
+
+# Items below this point will not be included in the Docker Image
+
+# Testing dependencies
+pytest
+asynctest
+pytest-asyncio
+pytest-benchmark
+pytest-cov
+pytest-integration
+pytest-mock
